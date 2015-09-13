@@ -1,0 +1,19 @@
+{
+  "name": "loft1",
+  "version": "1.0.0",
+  "description": "my first homeword",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadalfederer/loftdz1.git"
+  },
+  "author": "Vova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadalfederer/loftdz1/issues"
+  },
+  "homepage": "https://github.com/nadalfederer/loftdz1#readme"
+}

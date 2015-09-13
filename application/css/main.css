@@ -1,0 +1,382 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    height: 100%;
+    background-image: url("../img/comppattern2.png");
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+
+    font-family: fira_sansbook, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.wrapper-outer{
+    min-height: 100%;
+    min-width: 970px;
+    display: block;
+}
+.wrapper-inner{
+    padding-bottom: 80px;
+}
+/*header*/
+.header {
+    position: relative;
+    width: 100%;
+    height: 119px;
+    background-color: #eff3f7;
+    margin-bottom: 39px;
+
+}
+
+.header:after {
+
+    content: "";
+    width: 100%;
+    height: 3px;
+
+    position: absolute;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eff2f7+0,196879+50,eff2f7+100 */
+    background: #eff2f7; /* Old browsers */
+    background: -moz-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #eff2f7), color-stop(50%, #196879), color-stop(100%, #eff2f7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* IE10+ */
+    background: linear-gradient(to right, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eff2f7', endColorstr='#eff2f7', GradientType=1); /* IE6-9 */
+
+}
+
+/* позиционируем внутри шапки */
+.header .logo {
+    position: absolute;
+    top: 39px;
+
+}
+
+.content_header {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1200px;
+    min-width: 960px;
+}
+
+.header .social-list {
+    top: 36px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.social-items {
+    display: inline-block;
+    margin-left: 19px;
+
+}
+
+/*Social buttons*/
+.social-items:first-child {
+    margin-left: 0;
+}
+
+.social-link {
+
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url("../img/soc-buttons.png");
+
+}
+
+.fb {
+    background-position: -5px -5px;
+}
+
+.vk {
+    background-position: -5px -119px;
+}
+
+.git {
+    background-position: -5px -62px;
+}
+
+/*nav-bar-------------------------------------------------*/
+
+.nav-container {
+
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+}
+
+.side-bar {
+    width: 250px;
+    height: 402px;
+    float: left;
+
+}
+
+.nav-who {
+    height: 219px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 26px;
+
+    background-color: #eff3f7;
+}
+
+.nav-contacts {
+    height: 219px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-block {
+    display: block;
+    height: 69px;
+}
+
+.nav-block.active {
+    background-color: #3ba8c0;
+
+}
+
+.nav-block.active .nav-link {
+    color: white;
+}
+
+.nav-link {
+    display: block;
+    position: absolute;
+    font-size: 22px;
+    margin: 20px;
+
+    font-family: fira_sansbook, sans-serif;
+}
+
+.b-b {
+    border-bottom: 2px solid #3ba8c0;
+}
+
+.contact-main {
+    background-color: #3ba8c0;
+    display: block;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.nav-link-9-m {
+    display: block;
+    position: absolute;
+    font-size: 22px;
+
+    color: white;
+    font-family: fira_sansbook, sans-serif;
+
+}
+
+.nav-40 {
+    display: block;
+    height: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.nav-link-9 {
+    display: block;
+    position: absolute;
+    font-size: 16px;
+
+    color: white;
+    font-family: fira_sansbook, sans-serif;
+    text-align: right;
+}
+
+.m {
+    background-color: #41b9d4;
+}
+
+.t {
+    background-color: #48cbe8;
+}
+
+.n {
+    background-color: #51daf8;
+}
+
+.l {
+    margin-left: 42px;
+}
+
+/*main menu*/
+.main-menu {
+    width: 650px;
+    height: 840px;
+    display: block;
+    float: right;
+
+    margin-bottom: 40px;
+}
+
+.main-menu .main-info {
+    height: 325px;
+    display: block;
+    background-color: #eff3f7;
+    margin-bottom: 25px;
+}
+
+.heading {
+    width: 334px;
+    height: 70px;
+    margin: 0;
+    border-bottom: 2px solid #3ba8c0;
+}
+
+.heading .name {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 22px;
+    font-family: fira_sansbook, sans-serif;
+    font-size: 26px;
+    color: #3ba8c0;
+}
+
+.article {
+    display: block;
+    height: 253px;
+    width: 650px;
+}
+
+.photo {
+
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 0;
+    border: 5px solid #22a0b8;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.arcticle-list {
+    width: 430px;
+    float: right;
+    padding: 0;
+}
+
+.list-l {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+
+.margin-bot {
+    margin-bottom: 10px;
+}
+
+.list-r {
+    display: block;
+
+}
+
+.fon {
+    font-size: 18px;
+}
+
+.skills {
+
+    padding: 0;
+}
+
+.skill-li {
+
+    background-color: #3ba8c0;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 10px;
+    color: white;
+    padding: 0px 14px;
+
+}
+
+/*clearfix bug*/
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.div {
+    display: block;
+}
+
+/*Опыт работы*/
+.main-menu .work-history {
+    height: 232px;
+    display: block;
+    background-color: #eff3f7;
+    margin-bottom: 25px;
+
+}
+
+.counting-history {
+    padding-left: 58px;
+}
+
+.history-li {
+    background-image: url("../img/bag.png");
+
+    padding: 0 0 0 58px;
+    margin-bottom: 10px;
+}
+
+.fon1 {
+    color: #6b747c;
+}
+
+/*footer*/
+.footer {
+    margin-top: -80px;
+    clear:both;
+    width: 100%;
+    height: 80px;
+    background-color: #eff3f7;
+}
+
+.copyright{
+    color:#555f67;
+    font-size: 15px;
+    margin-left: 290px;
+}
+
+.container{
+    padding-left: 30px;
+    padding-top: 40px;
+    width: 960px;
+
+    margin: 0 auto;
+}
+
+/*.social-items{*/
+/*display:inline;*/
+/*}*/
