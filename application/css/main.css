@@ -257,6 +257,7 @@ background-position:  -62px -62px;
     float: right;
 
     margin-bottom: 40px;
+    background-color: #eff3f7;
 }
 
 .main-menu .main-info {
@@ -268,9 +269,10 @@ background-position:  -62px -62px;
 
 .heading {
     width: 334px;
-    height: 70px;
+    height: 139px;
     margin: 0;
     border-bottom: 2px solid #3ba8c0;
+    background-color: #48cbe8;
 }
 
 .heading .name {
