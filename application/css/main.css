@@ -53,6 +53,23 @@ a {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eff2f7', endColorstr='#eff2f7', GradientType=1); /* IE6-9 */
 
 }
+.footer:before{
+    content: "";
+    width: 100%;
+    height: 3px;
+
+    position: absolute;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eff2f7+0,196879+50,eff2f7+100 */
+    background: #eff2f7; /* Old browsers */
+    background: -moz-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #eff2f7), color-stop(50%, #196879), color-stop(100%, #eff2f7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* IE10+ */
+    background: linear-gradient(to right, #eff2f7 0%, #196879 50%, #eff2f7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eff2f7', endColorstr='#eff2f7', GradientType=1); /* IE6-9 */
+
+}
 
 /* позиционируем внутри шапки */
 .header .logo {
@@ -100,13 +117,21 @@ a {
 .fb {
     background-position: -5px -5px;
 }
-
+.fb:hover{
+    background-position: -62px -5px;
+}
 .vk {
     background-position: -5px -119px;
+}
+.vk:hover{
+    background-position: -62px -119px;
 }
 
 .git {
     background-position: -5px -62px;
+}
+.git:hover{
+background-position:  -62px -62px;
 }
 
 /*nav-bar-------------------------------------------------*/
@@ -149,7 +174,10 @@ a {
 
 .nav-block.active {
     background-color: #3ba8c0;
+}
 
+.nav-link:hover{
+    color: #3ba8c0;
 }
 
 .nav-block.active .nav-link {
