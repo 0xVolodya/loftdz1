@@ -1,0 +1,127 @@
+.feedback-title {
+    text-align: center;
+    display: block;
+    font-size: 27px;
+    font-family: fira_sansbook, sans-serif;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.feedback-head {
+
+    padding: 50px 20px 0 20px;
+    background-color: #48cbe8;
+    border-bottom: 17px solid #67dffa;
+}
+
+/*feedback body*/
+.feedback-outer {
+    width: 650px;
+    height: 840px;
+    background-color: #eff3f7;
+    float: right;
+    margin-bottom: 40px;
+}
+
+.feedback-body {
+    padding: 44px 124px;
+}
+
+.input-wrapper {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.name-wrapper {
+    width: 48%;
+}
+
+.email-wrapper {
+    width: 48%;
+}
+
+.label-name {
+    font-family: fira_sansbook, sans-serif;
+    font-size: 19px;
+    color: #a1a6b3;
+}
+
+.form-input {
+    border: 1px solid #48cbe8;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.text-area {
+    width: 100%;
+    border: 1px solid #48cbe8;
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    height: 180px;
+
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: #54cee9;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+/*captcha*/
+.wrapper-captcha {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.img-captcha{
+    border: 1px solid #48cbe8;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.form-captcha{
+    border: 1px solid #48cbe8;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 48%;
+}
+
+/*buttons*/
+.button-submit, .button-reset{
+    height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding: 0 20px;
+}
+
+.button-submit{
+    background-color: #48cbe8;
+    float: left;
+
+}
+.button-reset{
+    float: right;
+    background-color: #849db5;
+}

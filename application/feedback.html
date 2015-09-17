@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="fonts/fira-fonts.css">
     <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/feedback.css">
 </head>
 <body>
 
 <div class="wrapper-outer">
-    <div class="wrapper-inner">
 
         <header class="header">
             <div class="content_header">
@@ -53,7 +53,7 @@
 
                         <li class="nav-40 m ">
                             <div class="icons icons-mail"></div>
-                            <a class="nav-link-9 l ">nadalfer@mail.ru</a></li>
+                            <a class="nav-link-9 l ">nadalfederer@mail.ru</a></li>
                         <li class="nav-40 t">
                             <div class="icons icons-phone"></div>
                             <a class="nav-link-9 l">89118426180</a></li>
@@ -64,12 +64,49 @@
                 </div>
 
                 <!--main bar-->
-                <div class="main-menu">
-                    <div class="main-info">
-                        <div class="heading">
-                            <div class="name">aaaaУ вас интересный проект? Напишите мне</div>
+                <div class="feedback-outer">
+                    <div class="feedback-inner">
+                        <div class="feedback-head">
+                            <span class="feedback-title">У вас интересный проект? Напишите мне</span>
                         </div>
+                        <!--feedback body-->
+                        <div class="feedback-body">
+                            <form class="form" enctype="multipart/form-data" method="post">
+                                <div class="input-wrapper clearfix">
+                                    <!--Name-->
+                                    <div class="name-wrapper pull-left">
+                                        <label for="userName" class="label-name"> Имя</label>
+                                        <input id="userName" class="form-input" type="text" name="userName"
+                                               placeholder="Как к Вам обращаться">
+                                    </div>
+                                    <!--Email-->
+                                    <div class="email-wrapper pull-right">
+                                        <label for="emailName" class="label-name"> Email</label>
+                                        <input id="emailName" class="form-input" type="text" name="emailName"
+                                               placeholder="Куда мне писать">
+                                    </div>
+                                </div>
+                                <!--Content-->
+                                <div class="text-wrapper clearfix">
+                                    <label for="textName" class="label-name">Сообщение</label>
+                                    <textarea id="textName" class="text-area" rows="3"
+                                              placeholder="Кратко в чем суть"></textarea>
+                                </div>
+                                <!--Captcha-->
+                                <div class="wrapper-captcha">
+                                    <label for="captcha" class="label-name">Введите код, указанный на картинке</label>
+                                    <img src="img/captcha.png" class="img-captcha pull-left">
+                                    <input id="captcha" type="text" class="form-captcha pull-right"
+                                           placeholder="Введите код">
 
+                                </div>
+                                <!--buttons-->
+                                <div class="wrapper-buttons">
+                                    <button type="submit" class="button-submit">Отправить</button>
+                                    <button type="reset" class="button-reset">Очистить</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
 
                 </div>
@@ -77,18 +114,15 @@
 
         </nav>
 
-    </div>
 </div>
 
 <footer class="footer">
     <div class="container">
         <div class="icons icons-lock">
-            <a href="#"></a>
+            <a href="auth.html" class="lock-inner"></a>
         </div>
 
-        <div class="copyright ">© Это мой сайт, пожалуйста не копируйте и не воруйте его
-            Это мой сайт, пожалуйста не копируйте и не воруйте ег
-            Это мой сайт, пожалуйста не копируйте и не воруйте ег</div>
+        <div class="copyright ">© Это мой сайт, пожалуйста не копируйте и не воруйте его</div>
     </div>
 
 </footer>

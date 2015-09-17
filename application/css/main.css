@@ -21,9 +21,8 @@ a {
     min-height: 100%;
     min-width: 970px;
     display: block;
-}
-.wrapper-inner{
     padding-bottom: 80px;
+
 }
 /*header*/
 .header {
@@ -257,7 +256,6 @@ background-position:  -62px -62px;
     float: right;
 
     margin-bottom: 40px;
-    background-color: #eff3f7;
 }
 
 .main-menu .main-info {
@@ -265,14 +263,17 @@ background-position:  -62px -62px;
     display: block;
     background-color: #eff3f7;
     margin-bottom: 25px;
+    overflow: hidden;
 }
+ input,textarea{
+     width: 100%;
+ }
 
 .heading {
     width: 334px;
-    height: 139px;
+    height: 70px;
     margin: 0;
     border-bottom: 2px solid #3ba8c0;
-    background-color: #48cbe8;
 }
 
 .heading .name {
@@ -403,8 +404,13 @@ background-position:  -62px -62px;
     padding-left: 30px;
     padding-top: 40px;
     width: 960px;
-
     margin: 0 auto;
+}
+
+.lock-inner{
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 /*.social-items{*/
